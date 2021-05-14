@@ -11,7 +11,7 @@ public class TestMyOrderArray {
   public static void main(String[] args) {
     MyOrderArray<String> strArray = new MyOrderArray<String>();
     strArray.add("aaa");
-    strArray.add("ddd");
+    strArray.add("zzz");
     strArray.printArray();
     System.out.println("-------------------------");
     strArray.add("ccc");
@@ -21,6 +21,10 @@ public class TestMyOrderArray {
     strArray.printArray();
     System.out.println("-------------------------");
     strArray.add("bbb");
+    System.out.println("-------------------------");
+    strArray.add("fff");
+    System.out.println("-------------------------");
+    strArray.add("ddd");
 
     strArray.printArray();
   }

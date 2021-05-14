@@ -33,8 +33,10 @@ public class MyOrderArray<T extends Comparable> {
           array[i] = value;
           array[i + 1] = tmp;
         } else {
-          if(array[effectEleLen] == null) {
+          if(i == effectEleLen -1) {
             array[effectEleLen] = value;
+          } else {
+            continue;
           }
         }
       }
